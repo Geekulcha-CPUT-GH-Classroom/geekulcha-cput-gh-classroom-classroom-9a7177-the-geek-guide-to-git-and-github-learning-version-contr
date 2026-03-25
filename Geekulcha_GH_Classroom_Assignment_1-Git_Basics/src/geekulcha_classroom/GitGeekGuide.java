@@ -25,7 +25,7 @@ public class GitGeekGuide {
      */        
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter firstname: ");
+        System.out.print("Enter first name: ");
         String firstName = sc.nextLine();
         
         System.out.print("Enter surname: ");
