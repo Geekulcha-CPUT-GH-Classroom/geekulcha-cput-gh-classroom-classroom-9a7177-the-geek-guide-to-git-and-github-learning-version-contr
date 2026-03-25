@@ -13,6 +13,7 @@ package geekulcha_classroom;
  * @since 2026-03-22
  */
 public class Student {
+    private String firstName;
     private String surname;
     private String initial;
     private String faculty;
