@@ -27,13 +27,17 @@ public class Student {
      * @param faculty the faculty the student belongs to
      * @param studentNumber the unique student number
      */
-    public Student(String surname, String initial, String faculty, String studentNumber) {
+    public Student(String firstName, String surname, String initial, String faculty, String studentNumber) {
+        this.firstName = firstName;
         this.surname = surname;
         this.initial = initial;
         this.faculty = faculty;
         this.studentNumber = studentNumber;
     }
 
+    /** @return the student's surname */
+    public String getFirstName() { return firstName; }
+    
     /** @return the student's surname */
     public String getSurname() { return surname; }
 
