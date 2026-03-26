@@ -13,7 +13,7 @@ package geekulcha_classroom;
  * @since 2026-03-22
  */
 public class Student {
-    private String firstName;
+    private String firstName; // <- I added this variable
     private String surname;
     private String initial;
     private String faculty;
@@ -49,4 +49,14 @@ public class Student {
 
     /** @return the student's student number */
     public String getStudentNumber() { return studentNumber; }
+
+    // Adding a new feature to the Student Class - adding the setter methods to this class
+    public void setFirstName(String firstName){
+        this.firstName = firstName;
+    }
+
+    public void setSurname(String surname){
+        this.surname = surname;
+    }
+
 }
