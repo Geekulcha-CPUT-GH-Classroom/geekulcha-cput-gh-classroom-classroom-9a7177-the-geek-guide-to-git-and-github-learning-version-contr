@@ -25,6 +25,9 @@ public class GitGeekGuide {
      */        
         Scanner sc = new Scanner(System.in);
 
+        System.out.print("Enter first name: ");
+        String firstName = sc.nextLine();
+        
         System.out.print("Enter surname: ");
         String surname = sc.nextLine();
 
@@ -37,7 +40,7 @@ public class GitGeekGuide {
         System.out.print("Enter student number: ");
         String studentNumber = sc.nextLine();
 
-        Student student = new Student(surname, initial, faculty, studentNumber);
+        Student student = new Student(firstName, surname, initial, faculty, studentNumber);
         StudentCard card = new StudentCard(student);
 
         card.displayCard();
